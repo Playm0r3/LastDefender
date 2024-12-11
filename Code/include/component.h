@@ -4,7 +4,8 @@
 #include <raylib.h>
 
 class Component {
-
+public:
+	virtual ~Component() = default;
 };
 
 class TransformComponent : public Component {

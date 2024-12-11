@@ -1,5 +1,7 @@
 #include <raylib.h>
 
+#include "entity.h"
+
 int main()
 {
     InitWindow(800, 640, "Tower Defense");
